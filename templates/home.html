@@ -1,0 +1,74 @@
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>NSTU</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+    <link rel="stylesheet" href="static/css/home.css">
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous">
+    </script>
+</head>
+<body>
+    <div class="container">
+        <h1 class="banner">People Demo Application</h1>
+        <div class="section editor">
+            <label for="fname">Фамилия
+                <input id="fname" type="text" />
+            </label>
+            <br />
+            <label for="lname">Имя
+                <input id="lname" type="text" />
+            </label>
+            <br />
+            <label for="sname">Отчество
+                <input id="sname" type="text" />
+            </label>
+            <br />
+            <label for="gname">Группа
+                <input id="gname" type="text" />
+            </label>
+            <br />
+            <label for="dname">Дисциплина
+                <input id="dname" type="text" />
+            </label>
+            <br />
+            <label for="aname">Аудитория
+                <input id="aname" type="text" />
+            </label>
+            <br />
+            <label for="pname">Преподаватель
+                <input id="pname" type="text" />
+            </label>
+            <br />
+            <button id="create">Create</button>
+            <button id="update">Update</button>
+            <button id="delete">Delete</button>
+            <button id="reset">Reset</button>
+        </div>
+        <div class="people">
+            <table>
+                <caption>People</caption>
+                <thead>
+                    <tr>
+                        <th>Фамилия</th>
+                        <th>Имя</th>
+                        <th>Отчечтво</th>
+                        <th>Группа</th>
+                        <th>Дисциплина</th>
+                        <th>Аудитория</th>
+                        <th>Преподаватель</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+        </div>
+        <div class="error">
+        </div>
+    </div>
+</body>
+<script src="static/js/home.js"></script>
+</html>
